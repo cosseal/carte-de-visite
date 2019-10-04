@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#contour {
+    border: 3px solid #fea35c;
+    width: 70%;
+    height: 90% ;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+}
+
+#photo {
+    width: 200px;
+    height: 149px;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+}
+
+#CDS {
+    display: inline-block;
+    border: 2px solid #72dc9b;
+    border-radius: 1.2em;
+    padding: 10px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    right:20%;
+    top: 10%;
+    color: #b38bcc;
+}
+#nom {
+    position: absolute;
+    padding-top: 40px;
+    width: auto;
+    height: auto;
+    right:18%;
+    top: 15%;
+}
+.présentation {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left:30%;
+    top: 55%;
+    font-size: large;
+    font-weight: bold;
+}
+.icones-rs {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left:5%;
+    top: 75%;
+}
+
+#logo {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right:5%;
+    top: 70%;
+}
+
+#thèmes {
+    position: absolute;
+    padding-top: 40px;
+    width: auto;
+    height: auto;
+    right:8%;
+    top: 32%;
+    color: #72dc9b;
+    font-size: x-large;
+    font-weight: bold;
+}
