@@ -1,17 +1,37 @@
 body {
-    margin: 0;
+    margin: 10%;
     padding: 0;
+    width: auto;
+    background-color: antiquewhite;
+    font-family: Calibri ;
+    color: black;
+    font-size: large;
 }
 
 #contour {
     border: 3px solid #fea35c;
-    width: 70%;
+    width: 80%;
     height: 90% ;
     padding: 10px;
-    margin: 20px;
     position: absolute;
 }
 
+h1
+{
+    color: #b38bcc;
+    font-family: "Book Antiqua";
+    font-size: xx-large ;
+    line-height: normal;
+    font-weight: bolder;
+}
+
+h2
+{
+    color: #64abcc;
+    font-family: "Courier New";
+    font-size: x-large ;
+    line-height: normal;
+}
 #photo {
     width: auto;
     height: auto;
@@ -25,21 +45,21 @@ body {
     border: 2px solid #72dc9b;
     border-radius: 1.2em;
     padding: 10px;
-    position: absolute;
+    margin-top: 65px;
+    position: relative;
     width: auto;
     height: auto;
-    right:20%;
-    top: 10%;
-    color: #b38bcc;
-    max-width: 250px ;
+    left:62%;
+    top: auto;
+
 
 }
 #nom {
     position: absolute;
-    padding-top: 40px;
+    padding-top: 75px;
     width: auto;
     height: auto;
-    right:18%;
+    right:5%;
     top: 15%;
 
 }
@@ -51,6 +71,7 @@ body {
     top: 55%;
     font-size: large;
     font-weight: bold;
+    font-family: 'Mansalva', cursive;
 
 }
 .icones-rs {
@@ -71,12 +92,11 @@ body {
 
 #thèmes {
     position: absolute;
-    padding-top: 40px;
     width: auto;
     height: auto;
-    right:8%;
-    top: 32%;
-    color: #72dc9b;
-    font-size: x-large;
+    right:3%;
+    top: 42%;
+    color: #5adc8b;
+    font-size: xx-large;
     font-weight: bold;
 }
