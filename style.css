@@ -13,8 +13,8 @@ body {
 }
 
 #photo {
-    width: 200px;
-    height: 149px;
+    width: auto;
+    height: auto;
     position: absolute;
     top: 5%;
     left: 4%;
@@ -31,6 +31,8 @@ body {
     right:20%;
     top: 10%;
     color: #b38bcc;
+    max-width: 250px ;
+
 }
 #nom {
     position: absolute;
@@ -39,6 +41,7 @@ body {
     height: auto;
     right:18%;
     top: 15%;
+
 }
 .présentation {
     position: absolute;
@@ -48,6 +51,7 @@ body {
     top: 55%;
     font-size: large;
     font-weight: bold;
+
 }
 .icones-rs {
     position: absolute;
