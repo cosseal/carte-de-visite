@@ -3,7 +3,7 @@ body {
     padding: 0;
     width: auto;
     background-color: antiquewhite;
-    font-family: Calibri ;
+    font-family: "Calibri", sans-serif ;
     color: black;
     font-size: large;
 }
@@ -22,7 +22,7 @@ body {
 h1
 {
     color: #b38bcc;
-    font-family: "Book Antiqua";
+    font-family: "Book Antiqua", sans-serif;
     font-size: xx-large ;
     line-height: normal;
     font-weight: bolder;
@@ -31,7 +31,7 @@ h1
 h2
 {
     color: #64abcc;
-    font-family: "Courier New";
+    font-family: "Courier New", sans-serif;
     font-size: x-large ;
     line-height: normal;
 }
